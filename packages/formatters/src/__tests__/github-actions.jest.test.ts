@@ -1,5 +1,6 @@
 import { DiagnosticSeverity } from '@stoplight/types';
 import type { IRuleResult } from '@stoplight/spectral-core';
+import { FormatterContext } from '../types';
 import { githubActions } from '../github-actions';
 
 const cwd = process.cwd();
